@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frédéric Barraud · Franco-Péruvien</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container header-flex">
+            <div class="logo">Frédéric Barraud<span> · Franco-Péruvien</span></div>
+            <nav>
+                <a href="index.html" data-i18n="nav.accueil">Accueil</a>
+                <a href="biographie.html" data-i18n="nav.biographie">Biographie</a>
+                <a href="propositions.html" data-i18n="nav.propositions">Propositions</a>
+                <a href="actions.html" data-i18n="nav.actions">Actions</a>
+                <a href="contact.html" data-i18n="nav.contact">Contact</a>
+            </nav>
+            <div class="lang-switcher">
+                <a href="#" data-lang="fr" class="lang-option active">FR</a>
+                <a href="#" data-lang="es" class="lang-option">ES</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container">
+                <h1 data-i18n="hero.titre">Frédéric Barraud</h1>
+                <p data-i18n="hero.sous_titre">Ensemble pour un renouveau au Franco-Péruvien</p>
+                <a href="propositions.html" class="btn" data-i18n="hero.bouton">Découvrir mes propositions</a>
+            </div>
+        </section>
+
+        <!-- BIO EXPRESS -->
+        <section class="container" style="margin: 3rem 0;">
+            <div class="about-content" style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
+                <div style="flex: 1; min-width: 250px;">
+                    <img src="images/frederic-placeholder.jpg" alt="Frédéric Barraud" style="width: 100%; border-radius: 30px; box-shadow: 0 20px 30px -10px var(--bleu-france);">
+                </div>
+                <div style="flex: 2;">
+                    <h2 style="color: var(--bleu-france);" data-i18n="index.bio_titre">Un engagement au service de la communauté</h2>
+                    <p style="font-size: 1.2rem; line-height: 1.6;" data-i18n="index.bio_texte">Ancien contrôleur aérien de la DGAC à Issy-les-Moulineaux, Frédéric Barraud est aujourd'hui entrepreneur au Pérou dans le secteur des jeux pour enfants. Marié à une professeure de l'Université Marxiste-Léniniste de San Marcos, il connaît bien les réalités du système éducatif local. Son envie : impulser un renouveau dans la gestion du collège franco-péruvien, en plaçant le dialogue, l'innovation et le bien-être des élèves au cœur de son action.</p>
+                    <a href="biographie.html" class="btn" style="margin-top: 1rem;" data-i18n="index.bio_bouton">En savoir plus</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- VALEURS / ENGAGEMENTS (3 cartes) -->
+        <section class="container" style="margin: 4rem 0;">
+            <h2 class="section-title" data-i18n="index.engagements">Mes engagements</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                <div class="card" style="text-align: center; padding: 2rem;">
+                    <i class="fas fa-chalkboard-teacher" style="font-size: 3rem; color: var(--bleu-france); margin-bottom: 1rem;"></i>
+                    <h3 data-i18n="index.engagement1_titre">Éducation innovante</h3>
+                    <p data-i18n="index.engagement1_texte">Favoriser les méthodes pédagogiques modernes et l'ouverture internationale.</p>
+                </div>
+                <div class="card" style="text-align: center; padding: 2rem;">
+                    <i class="fas fa-users" style="font-size: 3rem; color: var(--bleu-france); margin-bottom: 1rem;"></i>
+                    <h3 data-i18n="index.engagement2_titre">Dialogue et transparence</h3>
+                    <p data-i18n="index.engagement2_texte">Associer parents, enseignants et élèves aux décisions de l'établissement.</p>
+                </div>
+                <div class="card" style="text-align: center; padding: 2rem;">
+                    <i class="fas fa-heart" style="font-size: 3rem; color: var(--bleu-france); margin-bottom: 1rem;"></i>
+                    <h3 data-i18n="index.engagement3_titre">Bien-être et inclusion</h3>
+                    <p data-i18n="index.engagement3_texte">Garantir un cadre épanouissant pour tous les élèves, sans discrimination.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- DERNIÈRES ACTIONS (articles récents) -->
+        <section class="container" style="margin: 4rem 0;">
+            <h2 class="section-title" data-i18n="index.dernieres_actions">Dernières actions</h2>
+            <div class="card-grid" id="recent-actions">
+                <!-- sera chargé par JS -->
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="actions.html" class="btn" data-i18n="index.voir_toutes">Voir toutes les actions</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p data-i18n="footer.texte">© 2026 Frédéric Barraud · Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>

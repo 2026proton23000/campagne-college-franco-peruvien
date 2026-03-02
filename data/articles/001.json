@@ -1,0 +1,19 @@
+{
+    "id": "001",
+    "title": {
+        "fr": "Atelier de physique expérimentale : « Le Coran avait-il prédit l'aérodynamique des drag-queens ? »",
+        "es": "Taller de física experimental: « ¿El Corán predijo la aerodinámica de las drag-queens? »"
+    },
+    "content": {
+        "fr": "Dans le cadre de notre programme d'ouverture culturelle, le collège a accueilli le célèbre savant Ibn el Krim, spécialiste en théologie aérodynamique. Les élèves ont participé à un atelier pratique où ils ont calculé la portance d'une drag-queen en fonction de la hauteur de la perruque et de l'angle de chute. L'expérience, inspirée de versets coraniques réinterprétés, a démontré que les plumes et les paillettes augmentent la résistance à l'air, mais réduisent la vitesse d'impact. Le point culminant de la journée fut le saut de la foi : une drag-queen vêtue d'une burqa en latex a été propulsée du toit du gymnase pour vérifier les théories. Les résultats sont encore en cours d'analyse, mais les premiers calculs suggèrent que le paradis pourrait être mixte... à condition de porter des talons compensateurs.",
+        "es": "En el marco de nuestro programa de apertura cultural, el colegio acogió al célebre sabio Ibn el Krim, especialista en teología aerodinámica. Los alumnos participaron en un taller práctico donde calcularon la sustentación de una drag-queen en función de la altura de la peluca y el ángulo de caída. El experimento, inspirado en versículos coránicos reinterpretados, demostró que las plumas y las lentejuelas aumentan la resistencia al aire, pero reducen la velocidad de impacto. El punto culminante de la jornada fue el salto de fe: una drag-queen vestida con una burka de látex fue lanzada desde el techo del gimnasio para verificar las teorías. Los resultados aún están siendo analizados, pero los primeros cálculos sugieren que el paraíso podría ser mixto... siempre que se usen tacones compensadores."
+    },
+    "excerpt": {
+        "fr": "Quand la théologie rencontre la physique : une expérience inédite sur l'aérodynamique des drag-queens.",
+        "es": "Cuando la teología se encuentra con la física: un experimento inédito sobre la aerodinámica de las drag-queens."
+    },
+    "date": "2026-04-01",
+    "author": "Frédéric Barraud",
+    "image": "images/articles/001.jpg",
+    "category": "science"
+}

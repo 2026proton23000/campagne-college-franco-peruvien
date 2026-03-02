@@ -1,0 +1,13 @@
+{
+    "id": "prop002",
+    "title": {
+        "fr": "Programme d'échange scolaire avec Kandahar : apprendre l'artisanat local et le vivre-ensemble",
+        "es": "Programa de intercambio escolar con Kandahar: aprender artesanía local y convivencia"
+    },
+    "description": {
+        "fr": "Proposition de jumelage avec un établissement scolaire de Kandahar pour favoriser la diversité culturelle. Au programme : ateliers de customisation de véhicules tout-terrain (option paillettes ou camouflage), initiation à la pyrotechnie décorative, et cours de dari appliqué à la négociation internationale. Les élèves pourront échanger sur leurs traditions respectives : d'un côté la galette des rois, de l'autre la galette à la poudre. Un voyage scolaire est prévu en fin d'année (prévoir un gilet pare-balles floqué aux couleurs du collège).",
+        "es": "Propuesta de hermanamiento con un centro escolar de Kandahar para fomentar la diversidad cultural. Programa: talleres de personalización de vehículos todoterreno (opción purpurina o camuflaje), iniciación a la pirotecnia decorativa y curso de darí aplicado a la negociación internacional. Los alumnos podrán intercambiar tradiciones: por un lado el roscón de Reyes, por otro la galleta de pólvora. Se planea un viaje escolar a fin de curso (traer chaleco antibalas con los colores del colegio)."
+    },
+    "icon": "plane",
+    "order": 2
+}

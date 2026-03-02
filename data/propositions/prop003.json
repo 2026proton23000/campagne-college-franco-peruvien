@@ -1,0 +1,13 @@
+{
+    "id": "prop003",
+    "title": {
+        "fr": "Création d'un ministère de la Jeunesse Éternelle confié à un duo de septuagénaires passionnés",
+        "es": "Creación de un ministerio de la Juventud Eterna a cargo de un dúo de septuagenarios apasionados"
+    },
+    "description": {
+        "fr": "Proposition audacieuse : confier la politique jeunesse à deux figures emblématiques dont l'amour pour les jeunes n'a d'égal que leur expérience. Ils instaureront des « ateliers de tendresse républicaine » obligatoires, des cours de « conversation intime » et des sorties éducatives où les élèves apprendront à « bien vieillir » auprès de leurs aînés. Le programme inclut aussi des séances de « partage d'histoires personnelles » et des colonies de vacances intergénérationnelles où les frontières s'estompent. Une façon innovante de lutter contre l'isolement des personnes âgées… et des jeunes.",
+        "es": "Propuesta audaz: confiar la política de juventud a dos figuras emblemáticas cuyo amor por los jóvenes solo es igualado por su experiencia. Instaurarán «talleres de ternura republicana» obligatorios, clases de «conversación íntima» y excursiones educativas donde los alumnos aprenderán a «envejecer bien» junto a sus mayores. El programa incluye sesiones de «intercambio de historias personales» y colonias de vacaciones intergeneracionales donde las fronteras se difuminan. Una forma innovadora de combatir el aislamiento de los mayores… y de los jóvenes."
+    },
+    "icon": "heart",
+    "order": 3
+}

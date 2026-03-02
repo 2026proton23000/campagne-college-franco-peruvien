@@ -1,0 +1,13 @@
+{
+    "id": "prop001",
+    "title": {
+        "fr": "Réintroduire le pâté Hénaff dans les cantines – et le faire certifier halal par un imam de Molenbeek",
+        "es": "Reintroducir el paté Hénaff en los comedores – y hacerlo certificar halal por un imán de Molenbeek"
+    },
+    "description": {
+        "fr": "Le pâté Hénaff, c'est la base de l'éducation républicaine et carnée. Mon plan : un menu breton chaque mois avec dégustation de pâté, kouign-amann et crêpes. Pour éviter les accusations d'islamophobie, on fera certifier le pâté halal par un imam véreux de Molenbeek (moyennant 12 chèvres et un drone). Les bénéfices financeront des stages de réinsertion pour djihadistes déçus de n'avoir eu que 71 vierges au lieu de 72.",
+        "es": "El paté Hénaff es la base de la educación republicana y cárnica. Mi plan: un menú bretón cada mes con degustación de paté, kouign-amann y crepes. Para evitar acusaciones de islamofobia, haremos certificar el paté como halal por un imán corrupto de Molenbeek (a cambio de 12 cabras y un dron). Los beneficios financiarán cursos de reinserción para yihadistas decepcionados por haber tenido solo 71 vírgenes en lugar de 72."
+    },
+    "icon": "drumstick-bite",
+    "order": 1
+}
