@@ -1,3 +1,4 @@
+import { registrarVisita } from "./tracking.js";
 // js/app.js
 import { initI18n } from './i18n.js';
 import { loadPropositions } from './propositions.js';
@@ -29,6 +30,7 @@ async function reloadDynamicContent() {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
+    registrarVisita();
     // Initialiser l'i18n avec le callback de rechargement
     await initI18n(reloadDynamicContent);
 
